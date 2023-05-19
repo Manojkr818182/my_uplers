@@ -1,0 +1,47 @@
+
+.tabs
+{
+    width: 100%;
+    height: auto;
+    color: #000;
+   display: grid;
+   place-items: center;
+}
+.tab
+{
+   max-width: 900px;
+   width: 100%;
+display: flex;
+justify-content: space-between;
+border: 1px solid #dbdbdb;
+align-items: center;
+padding:8px;
+font-weight: 500;
+font-size: 15px;
+border-radius: 7px;
+margin-bottom: 10px;
+}
+.ima
+{
+    width: 10%;
+}
+.front
+{
+    width: 35%;
+    text-align: left;
+}
+.tech
+{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+.tech p
+{
+    
+  background-color: grey;
+  padding: 3px 5px;
+  border-radius: 5px;
+  /* margin: 20px; */
+}

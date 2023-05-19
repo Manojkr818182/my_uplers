@@ -1,0 +1,65 @@
+
+.select-box1
+{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+}
+.select-box1 .option-container1
+{
+    background-color: #fff;
+    color: #000;
+    max-height: 0;
+    opacity: 0;
+    width: 100%;
+    transition: all 0.4s;
+    overflow: hidden;
+    border-radius: 10px;
+    order: 1;
+}.select-box1 .option1, .selected1
+{
+    
+}
+.selected1
+{
+    background-color: #fff;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    position: relative;
+    color: #000;
+    padding: 15px 20px;
+    height: 50px;
+    font-size: 16px;
+    order: 0;
+}
+.selected1::after 
+{
+    content: "";
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    height: 100%;
+    width: 16px;
+    right: 10px;
+    top: 20px;
+    transition: all 0.4s;
+}
+.select-box1 .option-container1.active
+{
+    max-height: 160px;
+    opacity: 1;
+}
+.select-box1 .option1:hover
+{
+    background-color: #f9f9f9;
+}
+.select-box1 label
+{
+    cursor: pointer;
+    font-weight: 400;
+    padding: 10px 20px;
+}
+.select-box1 .option1 .radio
+{
+    display: none;
+} 

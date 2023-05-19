@@ -1,0 +1,163 @@
+.main {
+    width: 100% !important;
+    height: 100vh;
+    padding:10px 100px;
+    /* overflow: scroll;
+    overflow-x: hidden; */
+    background-color: #f2f2f2;
+}
+.main::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* START For scroll slide design */
+.main::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 3px;
+}
+
+.main::-webkit-scrollbar-thumb {
+    border-radius: 3px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+
+/* END For scroll slide design */
+
+.my_main {
+    text-align: center;
+}
+
+.my_main h1 {
+    color: black;
+    font-size: 45px;
+    font-weight: 700;
+    padding-top: 32px;
+
+}
+
+.my_main p {
+    color: black;
+    font-size: 16px;
+    padding-top: 20px;
+}
+
+.my_main p a {
+    color: black;
+    text-decoration: #ffda30;
+}
+.my_err{
+    color: rgb(228, 15, 15);
+    font-weight: 600;
+    font-size:14px;
+    padding-top: 10px;
+
+}
+
+.first_inputs {
+    /* margin-top: 20px;
+    margin-bottom: 5px; */
+    padding-top: 50px;
+   
+}
+input {
+    background: #fff;
+    outline-color: #ffda30 !important;
+    padding: 5px 10px;
+}
+
+.third_inputs {
+    margin-top: 25px;
+
+}
+
+.file_type {
+    background-color: #fff;
+    height: 120px;
+    border: 2px dashed #dbdbdb;
+    border-radius: 10px;
+}
+
+.file_type input {
+    height: 100px !important;
+    width: 100%;
+}
+
+.text_area {
+    background-color: #fff;
+    width: 100%;
+    height: 90px;
+    border-radius: 16px;
+
+
+
+}
+
+.text_area textarea {
+    width: 100%;
+    height: 90px;
+    border:none;
+    border-radius: 16px;
+    padding:10px 20px;
+    outline-color: #ffda30;
+}
+
+
+
+.my_button {
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+}
+
+.my_button button {
+    font-weight: 600;
+    font-size: 18px;
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: black;
+    color: #f2f2f2;
+}
+.my_para p
+{
+    color: black;
+    font-weight: 600;
+    font-size: 17px;
+}
+.upload
+{
+    width: 100%;
+    height: 90px;
+    border: 2px dashed #ddd;
+    border-radius: 10px;
+}
+
+.btn_warning
+{
+    width: 100%;
+    height: 87px;
+    color: #606161;
+    font-size: 18px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    border-radius: 10px;
+    text-align: left;
+    position: relative;
+    background-color: #fff;
+    border: none;
+}
+.btn_warning:hover
+{
+    background-color:#fff;
+    color:#606161;
+}
+.btn_warning input[type="file"]
+{
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 0;
+    transform: scale(1.2);
+    opacity: 0;
+}

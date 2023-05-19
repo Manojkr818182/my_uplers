@@ -1,0 +1,223 @@
+.main {
+    padding: 50px 10px;
+    background-color: rgba(245, 244, 236, 0.781);
+}
+
+.first {
+    padding-top: 10px;
+    margin: 0;
+}
+
+.first h2 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    position: relative;
+    list-style: none;
+}
+ul li{
+    text-decoration: none;
+}
+
+.first_1_one {
+    margin-top: 150px;
+    margin-left: -405px;
+    display: flex;
+}
+
+.first_1 {
+    width: 15px;
+    height: 15px;
+    background-color: whitesmoke;
+    border-radius: 60%;
+}
+
+.first_1:after {
+    height: 30px;
+    box-shadow: 0 0 1px 2px rgb(215, 215, 228);
+    width: 30px;
+    margin: -8px 0 0 -8px;
+    /* background-color: whitesmoke; */
+    content: "";
+    position: absolute;
+    animation: pulsate 2s ease-out;
+    animation-iteration-count: infinite;
+    opacity: 0;
+    animation-delay: 1.1s;
+    border-radius: 100%
+}
+
+.first_1_line {
+    margin: 6px 5px 0px 5px;
+    width: 100px;
+    height: 2px;
+    background: black;
+    position: relative;
+}
+.first_1_line2 {
+    margin: -12px -13px 0px -47px;
+    width: 50px;
+    height: 2px;
+    background: black;
+    position: relative;
+    transform: rotate(45deg);
+}
+
+.second_one {
+    margin-top: 226px;
+    margin-left: -413px;
+    display: flex;
+}
+
+.second {
+    width: 15px;
+    height: 15px;
+    background-color: whitesmoke;
+    border-radius: 60%;
+}
+
+.second:after {
+    height: 30px;
+    box-shadow: 0 0 1px 2px rgb(215, 215, 228);
+    width: 30px;
+    margin: -8px 0 0 -8px;
+    /* background-color: whitesmoke; */
+    content: "";
+    position: absolute;
+    animation: pulsate 2s ease-out;
+    animation-iteration-count: infinite;
+    opacity: 0;
+    animation-delay: 1.1s;
+    border-radius: 100%
+}
+
+.second_line {
+    margin: 6px 5px 0px 5px;
+    width: 100px;
+    height: 2px;
+    background: black;
+    position: relative;
+}
+
+.second_line2 {
+    margin: 23px -12px 0px -56px;
+    width: 50px;
+    height: 2px;
+    background: black;
+    position: relative;
+    transform: rotate(-45deg);
+}
+.third_one {
+    margin-top: 53px;
+    margin-left: -146px;
+    display: flex;
+}
+
+.third {
+    width: 15px;
+    height: 15px;
+    background-color: whitesmoke;
+    border-radius: 60%;
+}
+
+.third:after {
+    height: 30px;
+    box-shadow: 0 0 1px 2px rgb(215, 215, 228);
+    width: 30px;
+    margin: -8px 0 0 -8px;
+    /* background-color: whitesmoke; */
+    content: "";
+    position: absolute;
+    animation: pulsate 2s ease-out;
+    animation-iteration-count: infinite;
+    opacity: 0;
+    animation-delay: 1.1s;
+    border-radius: 100%
+}
+
+.third_line {
+    margin: 6px 0px 0px 5px;
+    width: 100px;
+    height: 2px;
+    background: black;
+    position: relative;
+}
+.third_line2 {
+    margin: -13px 0px 0px -8px;
+    width: 50px;
+    height: 2px;
+    background: black;
+    position: relative;
+    transform: rotate(-46deg);
+}
+
+.fourth_one {
+    margin-top: 123px;
+    margin-left: -163px;
+    display: flex;
+}
+
+.fourth {
+    width: 15px;
+    height: 15px;
+    background-color: whitesmoke;
+    border-radius: 60%;
+}
+
+.fourth:after {
+    height: 30px;
+    box-shadow: 0 0 1px 2px rgb(215, 215, 228);
+    width: 30px;
+    margin: -8px 0 0 -8px;
+    /* background-color: rgb(245, 230, 230); */
+    content: "";
+    position: absolute;
+    animation: pulsate 2s ease-out;
+    animation-iteration-count: infinite;
+    opacity: 0;
+    animation-delay: 1.1s;
+    border-radius: 100%
+}
+
+.fourth_line {
+    margin: 6px 0px 0px 5px;
+    width: 100px;
+    height: 2px;
+    background: black;
+    position: relative;
+}
+
+.fourth_line2 {
+    margin: 25px 0px 0px -10px;
+    width: 50px;
+    height: 2px;
+    background: black;
+    position: relative;
+    transform: rotate(51deg);
+}
+
+@keyframes pulsate {
+    0% {
+        transform: scale(.1, .1);
+        opacity: .0
+    }
+
+    50% {
+        opacity: 1.0
+    }
+
+    100% {
+        transform: scale(1.1, 1.1);
+        opacity: 0
+    }
+}
